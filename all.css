@@ -1,0 +1,96 @@
+body{
+    background-color: rgba(111, 154, 208, 0.28);
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navstyle{
+    background-color: rgba(48, 75, 110, 0.84);
+    width:100%;
+    height: 100px;
+    position: fixed;
+}
+li{
+    margin-left: 120px;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: rgba(0, 255, 255, 0.84);
+}
+.all-h2{
+    color: aliceblue;
+}
+
+/* ANA SAYFA */
+.main-img {
+    width: 100%;
+    height: 100vh;
+}
+
+.main-div {
+    position: absolute;
+    top: 85%;  /* Görselin üzerinde ortalamak için */
+    left: 50%;  /* Görselin üzerinde ortalamak için */
+    transform: translate(-50%, -50%);  /* Ortalamayı tam yapmak için */
+    text-align: center;
+    color: white;  /* Yazı rengini beyaz yapar */
+
+}
+
+/* Hizmetlerimiz  */
+
+.service-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-list li {
+    margin: 15px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.art-img {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+
+}
+.art-img:hover{
+    box-shadow:10px 10px 10px 5px rgba(96, 93, 93, 0.76);
+}
+
+/* iletişim */
+
+.harita{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.art-div{
+    float: right;
+   margin-top:150px;
+    margin-right: 500px;
+}
+.art-icon{
+  width: 80px;
+ }
+
+/* ürünler */
+
+
+.art-card{
+    float: left;
+z-index: -1;
+margin-top: 12rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
